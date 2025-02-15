@@ -1,0 +1,131 @@
+.col-12 {
+    height: 640px;
+  }
+  .col-6{
+    height: 650px;
+  }
+  .square{
+    height: 150px;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-box1{
+    height: 280px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-box1 img{
+    height: 80px;
+    width: 110px;
+    border-radius: 30px;
+  }
+  .down1_sec{
+    height: 50%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .down1_sec{
+    height: 40%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tag1,
+  .tag2,
+  .tag3,
+  .tag4,
+  .tag5,
+  .tag6{
+    height: 30%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tag7,
+  .tag8{
+    height: 80%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .tag-1,
+  .tag-2,
+  .tag-3,
+  .tag-4,
+  .tag-5,
+  .tag-6,
+  .tag-7,
+  .tag-8{
+    height: 25%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .down2_sec{
+    height: 20%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-box2{
+    height: 210px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-first-box1 {
+    height: 320px;
+    border-radius: 20px;
+  }
+  .right-sec-box1{
+    height: 320px;
+    border-radius: 20px;
+  }
+
+  .right-first-box2 {
+    height: 320px;
+    border-radius: 20px;
+  }
+  .right-sec-box2{
+    height: 320px;
+    border-radius: 20px;
+  }
+  .work{
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .work_left{
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content1{
+    height: 130px;
+    border-radius: 10px;
+    font-size: small;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+  }

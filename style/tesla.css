@@ -1,0 +1,222 @@
+     /* Sticky Banner */
+     .sticky-banner {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        background: #fad8a8;
+        padding: 10px;
+        text-align: center;
+        z-index: 1000;
+        font-size: 14px;
+    }
+
+    .sticky-banner button{
+        padding: 4px;
+        font-size: 12px;
+    }
+
+
+    /* Full-screen Sections */
+    .full-section {
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    .sec_1{
+        background: url("../BS_images/tesla_img_1.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+        background-blend-mode:overlay;
+    }
+    .sec_1 h1{
+        font-size: 75px;
+    }
+    .sec_1 h4{
+        font-size: 40px;
+    }
+    .first-section{
+        gap: 60%;
+    }
+
+
+
+    .sec_2{
+        background: url("../BS_images/tesla_img_2.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+        background-blend-mode:overlay;
+    }
+    .sec_2 h1{
+        font-size: 56px;
+    }
+    .sec_2 h4{
+        font-size: 24px;
+    }
+
+    .sec_3{
+        background: url("../BS_images/tesla_img_3.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+        background-blend-mode:overlay;
+    }
+    .sec_3 h1{
+        font-size: 56px;
+    }
+    .sec_3 h4{
+        font-size: 34px;
+    }
+    .sec_3 h5{
+        font-size: 17px;
+    }
+
+    .sec_4{
+        background: url("../BS_images/tesla_img_4.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+        background-blend-mode:overlay;
+    }
+    .sec_4 h1{
+        font-size: 24px;
+    }
+    .sec_4 h5{
+        font-size: 17px;
+    }
+
+    .sec_5{
+        background: url("../BS_images/tesla_img_5.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+        background-blend-mode:overlay;
+    }
+    .sec_5 h1{
+        font-size: 56px;
+    }
+    .sec_5 h4{
+        font-size: 34px;
+    }
+    .sec_5 h5{
+        font-size: 17px;
+    }
+
+    .sec_6{
+        background: url("../BS_images/tesla_img_6.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+        background-blend-mode:overlay;
+    }
+    .sec_6 h1{
+        font-size: 56px;
+    }
+    .sec_6 h4{
+        font-size: 34px;
+    }
+    .sec_6 h5{
+        font-size: 17px;
+    }
+
+    .sec_7{
+        background: url("../BS_images/tesla_img_7.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+        background-blend-mode:overlay;
+    }
+    .sec_7 h1{
+        font-size: 56px;
+    }
+    .sec_7 h3{
+        font-size: 34px;
+    }
+
+    .sec_8{
+        background: url("../BS_images/tesla_img_8.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+        background-blend-mode:overlay;
+    }
+    .sec_8 h1{
+        font-size: 56px;
+    }
+    .sec_8 h4{
+        font-size: 34px;
+    }
+
+    .sec_9{
+        background: url("../BS_images/tesla_img_9.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+        background-blend-mode:overlay;
+    }
+     .sec_9 h1{
+        font-size: 56px;
+    }
+
+    .sec_10{
+        background: url("../BS_images/tesla_img_10\,jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+        background-blend-mode:overlay;
+    }
+     .sec_10 h1{
+        font-size: 56px;
+    }
+
+    /* Button Styles */
+    .btn-custom {
+        color: white;
+        padding: 10px 80px;
+        border-radius: 5px;
+        margin: 5px;
+        border: none;
+    }
+
+    /* Video Section */
+    .video-section {
+        text-align: center;
+        padding: 0px 0;
+    }
+
+    .sticky-footer {
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        background: #fffbf5;
+        padding: 20px;
+        text-align: center;
+        z-index: 1000;
+        font-size: 14px;
+        box-shadow: 4px 6px 10px 2px rgba(35, 35, 35, 0.888);
+    }
+
+    /* Footer */
+    .footer {
+        text-align: center;
+        padding: 20px;
+        background: #f8f9fa;
+    }

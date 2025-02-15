@@ -1,0 +1,18 @@
+.table-primary {
+    --bs-table-color: #000000;
+    --bs-table-bg: hsl(210, 100%, 87%);
+    --bs-table-border-color: #8d008a;
+    --bs-table-striped-bg: #c5d7f2;
+    --bs-table-striped-color: #000;
+    --bs-table-active-bg: #bacbe6;
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: #ffb8ea;
+    --bs-table-hover-color: #790044;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color)
+}
+
+.cls{
+    --bs-table-hover-bg: #000000;
+    --bs-table-hover-color: #ffffff;
+}
