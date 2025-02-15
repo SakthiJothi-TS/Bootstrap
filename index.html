@@ -1,65 +1,181 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="biodata-container">
-        <h1>Bio Data</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style/tesla.css">
+</head>
+<body>
 
-        <div class="section">
-            <h3>Personal Information</h3>
-            <ul>
-                <li><strong>Name:</strong> SakthiJothi T S</li>
-                <li><strong>Date of Birth:</strong> September 8, 2003</li>
-                <li><strong>Gender:</strong> Female</li>
-                <li><strong>Marital Status:</strong> Single</li>
-                <li><strong>Nationality:</strong> Indian</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h3>Contact Details</h3>
-            <ul>
-                <li><strong>Phone:</strong> +91 9876543210</li>
-                <li><strong>Email:</strong> sakthijothi@gmail.com</li>
-                <li><strong>Address:</strong> 37, bakyam strret teppakulam annupanadi road, madurai - 9</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h3>Educational Qualification</h3>
-            <ul>
-                <li><strong>High School:</strong> Sourashtra girls higher secondary school<br>81%</li>
-                <li><strong>Graduation:</strong> K.L.N College of Engineering<br> 7.85 CGPA</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h3>Skills</h3>
-            <ul>
-                <li>Adobe Illustrator</li>
-                <li>Adobe Photoshop</li>
-                <li>Figma</li>
-                <li>Indesign</li>
-                <li>Adobe XD</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h3>Hobbies</h3>
-            <ul>
-                <li>Reading Books</li>
-                <li>Art & Craft</li>
-                <li>Playing Instruments</li>
-                <li>Painting</li>
-            </ul>
-        </div>
+    <!-- Sticky Banner -->
+    <div class="sticky-banner">
+        <strong>Inventory Model Y Available Now - Explore Reduced Pricing </strong>
+        <button class="btn btn-dark">View Inventory</button>
     </div>
+
+    <Sections class="full-section sec_1 d-flex align-items-center justify-content-start">
+        
+        <header class="container-fluid d-flex justify-content-between align-items-center p-3 ">
+            <h5 class="logo text-light">TESLA</h5>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-light" href="#">Vehicles</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#">Energy</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#">Charging</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#">Discover</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#">Shop</a></li>
+                </ul>
+            </nav>
+
+            <div class="icons me-4">
+                <i class="me-2 bi bi-question-circle"></i>
+                <i class="me-2 bi bi-globe"></i>
+                <i class="me-2 bi bi-person-circle"></i>
+        </div>
+        
+        </header>
+    <div>
+        <h1>Model Y</h1>
+        <h4>$299/mo Leasing</h4><hr>
+        <h5>From $31,4901 After Est. Savings</h5>
+    </div>
+    <div>
+            <button class="btn-custom text-bg-primary">Order Now</button>
+            <button class="btn-custom text-bg-light">Learn More</button>
+        
+    </div>
+</Sections>
+
+<Sections class="first-section full-section sec_2 d-flex align-items-center justify-content-center">
+    <div>
+        <h1>New Model Y</h1>
+        <h4>Deliveries Begin in March</h4>
+    </div>
+    <div>
+            <button class="btn-custom text-bg-primary">Order Now</button>
+            <button class="btn-custom text-bg-light">Learn More</button>
+    </div>
+</Sections>
+    
+
+<Sections class="first-section full-section sec_3 d-flex align-items-center justify-content-center">
+    <div>
+        <h1>Model 3</h1>
+        <h4>$249/mo Lease Ending March 3</h4><hr>
+        <h5>From $29,9902 After Est. Savings</h5>
+    </div>
+    <div>
+            <button class="btn-custom text-bg-primary">Order Now</button>
+            <button class="btn-custom text-bg-light">Learn More</button>
+    </div>
+</Sections>
+    
+
+<Sections class="first-section full-section sec_4 d-flex align-items-center justify-content-center">    
+    <div>
+        <h2>$7,500 Federal Tax Credit Available</h2>
+        <h5>$749/mo Leasing</h5><hr>
+    </div>
+    <div>
+            <button class="btn-custom text-bg-dark">Order Now</button>
+            <button class="btn-custom text-bg-dark">Learn More</button>
+    </div>
+</Sections>
+
+
+<Sections class="first-section full-section sec_5 d-flex align-items-center justify-content-center">    
+    <div>
+        <h1>Model X</h1>
+        <h4>Free Supercharging Included</h4>
+        <h5>$1,149/mo Leasing</h5><hr>
+    </div>
+    <div>
+            <button class="btn-custom text-bg-primary">Order Now</button>
+            <button class="btn-custom text-bg-light">Learn More</button>
+    </div>
+</Sections>
+
+
+<Sections class="first-section full-section sec_6 d-flex align-items-center justify-content-center">
+    <div>
+        <h1>Model S</h1>
+        <h4>Free Supercharging Included</h4>
+        <h5>$998/mo Leasing</h5><hr>
+    </div>
+    <div>
+            <button class="btn-custom text-bg-primary">Order Now</button>
+            <button class="btn-custom text-bg-light">Learn More</button>
+    </div>
+</Sections>
+  
+<Sections class="first-section full-section sec_7 d-flex align-items-center justify-content-center">  
+    <div>
+        <h1>Solar Panels</h1>
+        <h3>Schedule a Virtual Consultation</h3>
+    </div>
+    <div>
+            <button class="btn-custom text-bg-primary">Order Now</button>
+            <button class="btn-custom text-bg-light">Learn More</button>
+    </div>
+</Sections>
+  
+
+<Sections class="first-section full-section sec_8 d-flex align-items-center justify-content-center">    
+    <div>
+        <h1>Solar Roof</h1>
+        <h4>Produce Clean Energy From Your Roof</h4>
+    </div>
+    <div>
+            <button class="btn-custom text-bg-primary">Order Now</button>
+            <button class="btn-custom text-bg-light">Learn More</button>
+    </div>
+</Sections>
+
+
+<Sections class="first-section full-section sec_9 d-flex align-items-center justify-content-center">   
+    <div>
+        <h1>Powerwall</h1>
+    </div>
+    <div>
+            <button class="btn-custom text-bg-primary">Order Now</button>
+            <button class="btn-custom text-bg-light">Learn More</button>
+    </div>
+</Sections>
+
+
+<Sections class="first-section full-section sec_10 d-flex align-items-center justify-content-center"> 
+    <div>
+        <h1>Accessories</h1>
+    </div>
+    <div>
+            <button class="btn-custom text-bg-primary">Order Now</button>
+    </div>
+</Sections>
+
+    <!-- Video Section -->
+    <div class="video-section">
+        <video width="100%" controls-off loop autoplay muted>
+            <source src="./BS_images/tesla_video" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2025 Tesla. All Rights Reserved.</p>
+    </div>
+
+    <div class="sticky-footer">
+        <strong>Schedule a Drive Today</strong>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
